@@ -1,6 +1,4 @@
-Absolutely! Here's a clean, professional, and beginner-friendly **README.md** draft for your project **Exceed** — tailored to highlight its purpose, setup, and usage:
 
----
 
 ## 📘 Exceed
 
