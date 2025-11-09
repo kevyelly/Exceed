@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXCEED - Training Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="landing-page">
+        <nav class="dashboard-nav">
+            <div class="container">
+                <div class="nav-content">
+                    <h1>EXCEED</h1>
+                    <a href="dashboard.php" class="btn-primary">Open Dashboard</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero container">
+            <div class="hero-content">
+                <h2>Streamline Your Training Management</h2>
+                <p>Transform how you manage corporate training with our intelligent scheduling
+                    and allocation system. Say goodbye to scheduling conflicts and hello to
+                    optimized team development.</p>
+                <a href="dashboard.php" class="btn-primary">
+                    Get Started
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </a>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" 
+                     alt="Team collaboration">
+            </div>
+        </div>
+
+        <div class="features container">
+            <div class="feature-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                <h3>Smart Team Allocation</h3>
+                <p>Automatically assign team members to training sessions based on availability and skill requirements.</p>
+            </div>
+            <div class="feature-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+                <h3>Conflict-Free Scheduling</h3>
+                <p>Eliminate scheduling conflicts with our intelligent calendar management system.</p>
+            </div>
+            <div class="feature-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+                <h3>Progress Tracking</h3>
+                <p>Monitor training progress and performance metrics in real-time with detailed analytics.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
